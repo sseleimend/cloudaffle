@@ -79,3 +79,10 @@
   top: 6px;
   pointer-events: none;
 }
+
+/* Hero section starts here */
+.main-section {
+  padding: 16px;
+  max-width: var(--max-width);
+  margin: auto;
+}
