@@ -48,6 +48,10 @@
   color: var(--primary-color);
 }
 
+.search-container {
+  position: relative;
+}
+
 .search-input {
   background-color: #f4f4f5;
   min-width: 166px;
@@ -67,4 +71,11 @@
   border: 1px solid var(--primary-color);
   outline: none;
   color: #3b3c4a;
+}
+
+.search-icon {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  pointer-events: none;
 }
