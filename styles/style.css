@@ -87,6 +87,10 @@
   margin: auto;
 }
 
+.hero-section {
+  position: relative;
+}
+
 .hero-image {
   min-height: 600px;
   background-image: url("/images/hero.png");
@@ -103,6 +107,9 @@
   border-radius: 0.5rem;
   box-shadow: 0 12px 24px -6px rgba(24, 26, 42, 0.12), inset 0 0 0 1px #e8e8ea;
   padding: 40px;
+  position: absolute;
+  top: 360px;
+  left: 64px;
 }
 
 .badge-container {
